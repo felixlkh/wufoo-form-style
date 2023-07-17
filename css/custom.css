@@ -138,12 +138,12 @@ html {
     -webkit-box-flex: 0;
 }
 
-legend.desc {
+.wufoo legend.desc {
     margin-bottom: 10px;
 }
 
-label.desc,
-legend.desc {
+.wufoo label.desc,
+.wufoo legend.desc {
     font-size: 16px;
     font-weight: 600;
     line-height: inherit;
@@ -167,15 +167,15 @@ legend.desc {
     font-family: inherit;
 }
 
-input.file {
+.wufoo input.file {
     padding: 5px 0;
 }
 
-.safari select.select {
+.safari .wufoo select.select {
     font-size: 1.05rem !important;
 }
 
-input.text::placeholder {
+.wufoo input.text::placeholder {
     color: black;
 }
 
