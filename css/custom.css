@@ -35,30 +35,30 @@ html {
     border: 1px solid #e6e6e6;
 }
 
-.info {
+.wufoo .info {
     border-bottom: none;
 }
 
-.info h2 {
-    font-size: 2.7rem;
+.wufoo .info h2 {
+    font-size: 2.7rem !important;
     margin-block-end: 0.5em;
     font-weight: bold;
     letter-spacing: 0.01em;
 }
 
-.info div {
-    font-size: 1.4rem;
+.wufoo .info div {
+    font-size: 1.4rem !important;
     line-height: 1.6;
-    color: #000000;
+    color: #000000 !important;
 }
 
-input.text,
-textarea.textarea {
+.wufoo input.text,
+.wufoo textarea.textarea {
     background: #ffffff repeat-x top;
 }
 
-input.text:focus,
-textarea.textarea:focus {
+.wufoo input.text:focus,
+.wufoo textarea.textarea:focus {
     border-width: 2px 2px 5px;
     border-style: solid;
     border-color: rgb(249, 221, 231) rgb(249, 221, 231) rgb(255, 34, 201) !important;
@@ -66,58 +66,58 @@ textarea.textarea:focus {
     outline: none;
 }
 
-form li {
+.wufoo li {
     margin-top: 20px !important;
     padding-top: 0;
     padding-bottom: 0;
 }
 
-form li span {
+.wufoo li span {
     margin: 0 1em 0 0;
 }
 
-form li.focused {
+.wufoo li.focused {
     background: none;
 }
 
-form li .datepicker {
+.wufoo li .datepicker {
     width: 20px;
     height: 20px;
     margin-top: 18px;
 }
 
-form li.time select.select {
+.wufoo li.time select.select {
     margin-left: 5px;
     min-width: 4.2em;
 }
 
-form .rating {
+.wufoo .rating {
     margin: 10px;
 }
 
-form .rating span,
-form .rating:hover span:hover ~ span {
+.wufoo .rating span,
+.wufoo .rating:hover span:hover ~ span {
     font-size: 28px;
     padding-right: 1.2em;
 }
 
-form .rating>span:hover,
-form .rating .clicked:hover,
-form .rating:hover span {
+.wufoo .rating>span:hover,
+.wufoo .rating .clicked:hover,
+.wufoo .rating:hover span {
     color: #783ef7;
     text-shadow: none;
 }
 
-form li.section h3 {
-    font-size: 1.8rem;
+.wufoo li.section h3 {
+    font-size: 1.8rem !important;
     font-weight: bold;
     border-top: 1px solid rgb(233, 232, 232);
 }
 
-form li.section div {
-    font-size: 1rem;
+.wufoo li.section div {
+    font-size: 1rem !important;
 }
-form li.buttons input {
+.wufoo li.buttons input {
     display: inline-block;
     position: relative;
     font-weight: 700;
@@ -147,9 +147,9 @@ legend.desc {
     color: #000;
 }
 
-input.text,
-textarea.textarea,
-select.select {
+.wufoo input.text,
+.wufoo textarea.textarea,
+.wufoo select.select {
     margin-top: 5px !important;
     padding: 12px 10px 13px;
     font-size: 1.05rem !important;
