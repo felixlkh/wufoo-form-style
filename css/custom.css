@@ -144,7 +144,7 @@ html {
 
 .wufoo label.desc,
 .wufoo legend.desc {
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 600;
     line-height: inherit;
     padding: 0;
