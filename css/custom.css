@@ -148,7 +148,7 @@ html {
     font-weight: 600;
     line-height: inherit;
     padding: 0;
-    color: #000;
+    color: #000  !important;
 }
 
 .wufoo input.text,
