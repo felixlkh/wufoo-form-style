@@ -1,0 +1,16 @@
+{
+  "name": "wufoo-form-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -o -c-1 -a localhost -p 4200 -l -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
