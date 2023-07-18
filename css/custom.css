@@ -5,6 +5,7 @@
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     font-size: 16px;
+    font-weight: 600;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -130,7 +131,6 @@ html {
 .wufoo li.buttons input {
     display: inline-block;
     position: relative;
-    font-weight: 600;
     font-size: 1.14rem !important;
     line-height: 1.6;
     color: rgb(255, 255, 255);
@@ -151,7 +151,6 @@ html {
 .wufoo label.desc,
 .wufoo legend.desc {
     font-size: 16px !important;
-    font-weight: 600;
     line-height: inherit;
     padding: 0;
     color: #000  !important;
