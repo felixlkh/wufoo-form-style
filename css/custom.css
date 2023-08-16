@@ -42,9 +42,18 @@ html {
 .instruct {
     border: 1px solid #e6e6e6;
 }
-form.wufoo{
+.wufoo form.wufoo{
     width: 100% !important;
     max-width: 660px;
+}
+
+.wufoo form li.error {
+    display: block !important;
+     background-color: rgba(255, 255, 255, 0) !important;
+    margin-bottom: 3px !important;
+}
+form li.error .desc {
+    color: #000 !important;
 }
 
 .wufoo .info {
