@@ -43,7 +43,8 @@ html {
     border: 1px solid #e6e6e6;
 }
 form.wufoo{
-    width: 60% !important;
+    width: 100% !important;
+    max-width: 660px;
 }
 
 .wufoo .info {
