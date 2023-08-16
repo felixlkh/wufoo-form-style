@@ -42,7 +42,7 @@ html {
 .instruct {
     border: 1px solid #e6e6e6;
 }
-.wufoo form.wufoo{
+form.wufoo{
     width: 100% !important;
     max-width: 660px;
 }
