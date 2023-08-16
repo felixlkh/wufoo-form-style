@@ -47,10 +47,8 @@ html {
     max-width: 660px;
 }
 
-.wufoo form li.error {
-    display: block !important;
+form li.error {
      background-color: rgba(255, 255, 255, 0) !important;
-    margin-bottom: 3px !important;
 }
 form li.error .desc {
     color: #000 !important;
