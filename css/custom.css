@@ -94,6 +94,7 @@ form li.error .desc {
     margin-top: 25px !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+    width: auto !important;
 }
 
 .wufoo li>span, .wufoo li>div>span {
