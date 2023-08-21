@@ -303,3 +303,9 @@ table{
      border-left: none !important;
     background-color: transparent !important;
 }
+
+@media (max-width:579px) {
+    .wufoo li.threeColumns div span, .wufoo li.notStacked div span{
+        width: 48%;
+    }
+}
